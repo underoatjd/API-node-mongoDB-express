@@ -1,0 +1,37 @@
+###
+POST http://localhost:9000/api/users  HTTP/1.1
+Content-Type: application/json
+
+{
+    "dni" : 63443009,
+    "name" : "Hortenciaww",
+    "lastName" : "Alvarwwez",
+    "age" : 57,
+    "roll" : "Madrwdwde",
+    "tel" : 3167296813,
+    "email" : "horwdwdtencia_alvarez@hotmail.com"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/64ef947abeb1df1ce966f256 HTTP/1.1
+
+
+###
+PUT  http://localhost:9000/api/users/64ef9e188fc918b6a7c11492  HTTP/1.1
+Content-Type: application/json
+
+{
+    "dni" : 10987700022,
+    "name" : "Katherine",
+    "lastName" : "Cala",
+    "age" : 28,
+    "roll" : "Psicologa",
+    "tel" : 3184350844,
+    "email" : "katherine.01@hotmail.com"
+}
+
+###
+DELETE http://localhost:9000/api/users/64ef9e188fc918b6a7c11492 HTTP/1.1
